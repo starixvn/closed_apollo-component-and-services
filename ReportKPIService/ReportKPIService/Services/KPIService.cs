@@ -44,8 +44,8 @@ namespace Apollo.ReportKPIService.Services
         /// <summary>
         /// Gets the report sun sport win loss.
         /// </summary>
-        /// <param name="fromDate">From date.</param>
-        /// <param name="toDate">To date.</param>
+        /// <param name="fromDate">Input from date.</param>
+        /// <param name="toDate">Input to date.</param>
         /// <param name="currency">The currency.</param>
         /// <param name="drawType">Type of the draw.</param>
         /// <param name="reportBy">The report by.</param>

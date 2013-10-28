@@ -34,16 +34,16 @@ namespace Apollo.ReportKPIService.Controllers
         /// Gets all KPI report.
         /// </summary>
         /// <param name="reportDate">The report date.</param>
-        /// <returns>List of KPI report.</returns>       
+        /// <returns>List of KPI report.</returns>
         [HttpGet]
         public IEnumerable<KPIModel> ReportKPI(DateTime reportDate)
         {
-            
-           var data = _reportKPIService.GetReportKPI(reportDate);
+            var data = _reportKPIService.GetReportKPI(reportDate);
             if (data != null && data.Any())
             {
                 return _reportKPIService.GetReportKPI(reportDate).ToList();
             }
+
             return new List<KPIModel>();
         }
 
@@ -55,27 +55,39 @@ namespace Apollo.ReportKPIService.Controllers
         [HttpGet]
         public IEnumerable<ReportGetTopSportAllModel> ReportTopSportAll(DateTime reportDate)
         {
-            return _reportKPIService.GetTopSportAll(reportDate).ToList();
+            var data = _reportKPIService.GetTopSportAll(reportDate);
+            if (data != null && data.Any())
+            {
+                return _reportKPIService.GetTopSportAll(reportDate).ToList();
+            }
+
+            return new List<ReportGetTopSportAllModel>();
         }
 
         /// <summary>
         /// Gets the specified from date.
         /// </summary>
-        /// <param name="fromDate">From date.</param>
-        /// <param name="toDate">To date.</param>
+        /// <param name="fromDate">Input from date.</param>
+        /// <param name="toDate">Input to date.</param>
         /// <param name="currency">The currency.</param>
         /// <param name="drawType">Type of the draw.</param>
         /// <param name="reportBy">The report by.</param>
         /// <returns>List of Sun win lost report.</returns>
         [HttpGet]
         public IEnumerable<ReportSunSportWinLossModel> ReportSunSportWinLoss(
-            DateTime fromDate, 
-            DateTime toDate, 
-            int currency = 0, 
-            short drawType = 0, 
+            DateTime fromDate,
+            DateTime toDate,
+            int currency = 0,
+            short drawType = 0,
             short reportBy = 0)
         {
-            return _reportKPIService.GetReportSunSportWinLoss(fromDate, toDate, currency, drawType, reportBy).ToList();
+            var data = _reportKPIService.GetReportSunSportWinLoss(fromDate, toDate, currency, drawType, reportBy);
+            if (data != null && data.Any())
+            {
+                return _reportKPIService.GetReportSunSportWinLoss(fromDate, toDate, currency, drawType, reportBy).ToList();
+            }
+
+            return new List<ReportSunSportWinLossModel>();
         }
     }
 }
