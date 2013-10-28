@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Apollo-Deploy\KPIReport" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/System.Web.Http.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/System.Net.Http.Formatting.dll" publishTime="07/10/2012 21:51:54" />
+    <file relUrl="bin/NPOI.xml" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="Global.asax" publishTime="10/24/2013 16:12:32" />
+    <file relUrl="bin/Fanex.Logging.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/System.Net.Http.WebRequest.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/Fanex.Data.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/System.Net.Http.Formatting.xml" publishTime="05/30/2012 01:00:26" />
+    <file relUrl="bin/UMControllerLibrary.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="Scripts/jquery-2.0.3-vsdoc.js" publishTime="10/24/2013 16:35:51" />
+    <file relUrl="bin/System.Net.Http.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/Apollo.ReportKPIService.pdb" publishTime="10/28/2013 11:35:09" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="App_Data/SpNames.xml" publishTime="10/28/2013 09:27:43" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="10/24/2013 16:15:14" />
+    <file relUrl="bin/SPSRemoting.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/Apollo.ReportKPIService.dll" publishTime="10/28/2013 11:35:09" />
+    <file relUrl="bin/Ionic.Zip.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/IBCFile.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/Microsoft.Practices.ServiceLocation.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/System.Web.Helpers.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/System.Web.WebPages.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/System.Web.Mvc.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="Scripts/jquery-2.0.3.js" publishTime="10/24/2013 16:35:51" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/System.Web.Razor.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/System.Web.WebPages.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/System.Web.Mvc.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="10/24/2013 16:15:14" />
+    <file relUrl="bin/WebGrease.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/Microsoft.Practices.Unity.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/Fanex.NAP.Core.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="packages.config" publishTime="10/24/2013 16:35:51" />
+    <file relUrl="bin/System.Net.Http.WebRequest.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="Scripts/jquery-2.0.3.min.js" publishTime="10/24/2013 16:35:51" />
+    <file relUrl="bin/NPOI.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/Microsoft.Practices.Unity.Interception.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/System.Web.Razor.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/System.Web.Http.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="Web.ConnectionString.config" publishTime="10/24/2013 16:13:21" />
+    <file relUrl="bin/System.Web.Http.WebHost.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/System.Net.Http.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="Web.config" publishTime="10/28/2013 11:35:15" />
+    <file relUrl="bin/System.Web.Http.WebHost.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/Fanex.NAP.Framework.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/Fanex.Common.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="bin/System.Web.WebPages.Razor.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/System.Web.Optimization.dll" publishTime="08/19/2013 10:25:05" />
+    <file relUrl="Views/Web.config" publishTime="10/24/2013 16:12:32" />
+    <file relUrl="bin/System.Web.Helpers.xml" publishTime="03/27/2013 09:57:15" />
+    <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="03/27/2013 09:57:15" />
+  </publishProfile>
+</publishData>
