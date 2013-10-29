@@ -25,7 +25,7 @@ namespace Apollo.ReportKPIService.Models
 
         public decimal? TurnOver { get; set; }
 
-        public decimal? TurnOverEUR { get; set; }
+        public double? TurnOverEUR { get; set; }
 
         public decimal? WinLoss { get; set; }
 
