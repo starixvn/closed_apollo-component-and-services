@@ -101,5 +101,24 @@ namespace Apollo.ReportKPIService.Services
 
             return models;
         }
+
+        /// <summary>
+        /// Gets the currency.
+        /// </summary>
+        /// <returns>List of Currency.</returns>
+        public IEnumerable<GetCurrencyModel> GetCurrency()
+        {
+            IEnumerable<GetCurrencyModel> models = null;
+            try
+            {
+                models = GetData<GetCurrencyModel>(new GetCurrencyCriteria { });
+            }
+            catch (Exception ex)
+            {
+                Fanex.Logging.LogService.Error(ex.Message, ex);
+            }
+
+            return models;
+        }
     }
 }

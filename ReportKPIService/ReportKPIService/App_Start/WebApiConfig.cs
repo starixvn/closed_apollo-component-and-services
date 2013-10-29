@@ -35,6 +35,11 @@ namespace ReportKPIService
                name: "ReportTopSportAll",
                routeTemplate: "api/{controller}/ReportTopSportAll/{id}",
                defaults: new { Controllers = "kpi", Action = "ReportTopSportAll", id = RouteParameter.Optional });
+
+            config.Routes.MapHttpRoute(
+              name: "GetCurrency",
+              routeTemplate: "api/{controller}/GetCurrency/{id}",
+              defaults: new { Controllers = "kpi", Action = "GetCurrency", id = RouteParameter.Optional });
         }
     }
 }

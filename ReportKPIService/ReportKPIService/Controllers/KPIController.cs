@@ -84,10 +84,25 @@ namespace Apollo.ReportKPIService.Controllers
             var data = _reportKPIService.GetReportSunSportWinLoss(fromDate, toDate, currency, drawType, reportBy);
             if (data != null && data.Any())
             {
-                return _reportKPIService.GetReportSunSportWinLoss(fromDate, toDate, currency, drawType, reportBy).ToList();
+                return data;
             }
 
             return new List<ReportSunSportWinLossModel>();
+        }
+
+        /// <summary>
+        /// Gets the currency.
+        /// </summary>
+        /// <returns>List of currency.</returns>
+        public IEnumerable<GetCurrencyModel> GetCurrency()
+        {
+            var data = _reportKPIService.GetCurrency();
+            if (data != null && data.Any())
+            {
+                return data;
+            }
+
+            return new List<GetCurrencyModel>();
         }
     }
 }

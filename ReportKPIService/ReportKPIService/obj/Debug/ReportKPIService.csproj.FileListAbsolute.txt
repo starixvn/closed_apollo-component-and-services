@@ -1,4 +1,3 @@
-D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\obj\Debug\ReportKPIService.csprojResolveAssemblyReference.cache
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\ReportKPIService.dll
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\ReportKPIService.pdb
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\Fanex.Common.dll
@@ -45,5 +44,6 @@ D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\System.Web.WebPag
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\System.Web.WebPages.Deployment.xml
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\System.Web.WebPages.Razor.xml
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\NPOI.xml
+D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\obj\Debug\ReportKPIService.csprojResolveAssemblyReference.cache
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\obj\Debug\ReportKPIService.dll
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\obj\Debug\ReportKPIService.pdb

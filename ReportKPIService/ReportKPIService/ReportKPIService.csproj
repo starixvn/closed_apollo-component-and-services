@@ -120,12 +120,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\KPIController.cs" />
+    <Compile Include="Criteria\GetCurrencyCriteria.cs" />
     <Compile Include="Criteria\KPICriteria.cs" />
     <Compile Include="Criteria\ReportGetTopSportAllCriteria.cs" />
     <Compile Include="Criteria\ReportSunSportWinLossCriteria.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\GetCurrencyModel.cs" />
     <Compile Include="Models\KPIModel.cs" />
     <Compile Include="Models\ReportGetTopSportAllModel.cs" />
     <Compile Include="Models\ReportSunSportWinLossModel.cs" />
@@ -153,7 +155,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.ConnectionString.config" />
+    <Content Include="Web.ConnectionString.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
