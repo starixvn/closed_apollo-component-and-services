@@ -8,6 +8,9 @@
 // </history>
 namespace ApolloReportKPIService.Models
 {
+    /// <summary>
+    /// KPI model class.
+    /// </summary>
     public class KPIModel
     {
         public int? StatID { get; set; }

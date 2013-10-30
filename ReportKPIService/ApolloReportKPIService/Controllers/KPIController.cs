@@ -17,35 +17,64 @@ namespace ApolloReportKPIService.Controllers
     using System.Web.Http;
     using ApolloReportKPIService.Models;
 
+    /// <summary>
+    /// KPI Controller class.
+    /// </summary>
     public class KPIController : ApiController
     {
-        private HttpClient client = null;
-        private string urlService = string.Empty;
+        private HttpClient _client = null;
+        private string _urlService = string.Empty;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="KPIController"/> class.
+        /// </summary>
         public KPIController()
         {
-            client = new HttpClient();
-            urlService = ConfigurationManager.AppSettings["URLService"].ToString();
+            _client = new HttpClient();
+            _urlService = ConfigurationManager.AppSettings["URLService"].ToString();
         }
 
+        /// <summary>
+        /// Gets the currency.
+        /// </summary>
+        /// <returns>List of currency.</returns>
         [HttpGet]
         public IEnumerable<CurrencyModel> GetCurrency()
         {
             return GetData<CurrencyModel>("api/kpi/getcurrency");
         }
 
+        /// <summary>
+        /// Reports the KPI.
+        /// </summary>
+        /// <param name="reportDate">The report date.</param>
+        /// <returns>List of KPI.</returns>
         [HttpGet]
         public IEnumerable<KPIModel> ReportKPI(DateTime reportDate)
         {
             return GetData<KPIModel>("api/kpi/ReportKPI?reportdate=" + reportDate);
         }
 
+        /// <summary>
+        /// Reports the top sport all.
+        /// </summary>
+        /// <param name="reportDate">The report date.</param>
+        /// <returns>List of top sport.</returns>
         [HttpGet]
         public IEnumerable<TopSportAllModel> ReportTopSportAll(DateTime reportDate)
         {
             return GetData<TopSportAllModel>("api/kpi/ReportTopSportAll?reportdate=" + reportDate);
         }
 
+        /// <summary>
+        /// Reports the sun sport win loss.
+        /// </summary>
+        /// <param name="fromDate">Input from date.</param>
+        /// <param name="toDate">Input to date.</param>
+        /// <param name="currency">The currency.</param>
+        /// <param name="drawType">Type of the draw.</param>
+        /// <param name="reportBy">The report by.</param>
+        /// <returns>List of sun sport win loss.</returns>
         [HttpGet]
         public IEnumerable<SunSportWinLossModel> ReportSunSportWinLoss(
             DateTime fromDate,
@@ -54,7 +83,6 @@ namespace ApolloReportKPIService.Controllers
             short drawType = 0,
             short reportBy = 0)
         {
-
             return GetData<SunSportWinLossModel>(
                 "api/kpi/ReportSunSportWinLoss?fromDate=" + fromDate +
                 "&toDate=" + toDate +
@@ -63,14 +91,19 @@ namespace ApolloReportKPIService.Controllers
                 "&reportBy=" + reportBy);
         }
 
+        /// <summary>
+        /// Gets the data.
+        /// </summary>
+        /// <typeparam name="T">The object model.</typeparam>
+        /// <param name="url">Input the URL.</param>
+        /// <returns>List of object.</returns>
         private IEnumerable<T> GetData<T>(string url)
         {
-            client.BaseAddress = new Uri(urlService);
-            // Add an Accept header for JSON format.
-            client.DefaultRequestHeaders.Accept.Add(
+            _client.BaseAddress = new Uri(_urlService);
+            _client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
 
-            HttpResponseMessage response = client.GetAsync(url).Result;
+            HttpResponseMessage response = _client.GetAsync(url).Result;
 
             if (response.IsSuccessStatusCode)
             {
@@ -83,6 +116,5 @@ namespace ApolloReportKPIService.Controllers
 
             return new List<T>();
         }
-
     }
 }

@@ -8,6 +8,9 @@
 // </history>
 namespace ApolloReportKPIService.Models
 {
+    /// <summary>
+    /// Top sport all model class.
+    /// </summary>
     public class TopSportAllModel
     {
         public int? StatId { get; set; }

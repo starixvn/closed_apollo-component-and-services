@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Apollo-Deploy\ApolloKPIReport" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/System.Runtime.xml" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Net.Http.WebRequest.xml" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Web.WebPages.xml" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="bin/System.Web.Http.WebHost.xml" publishTime="10/28/2013 13:50:54" />
+    <file relUrl="bin/System.Net.Http.Extensions.xml" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/IBCReportKPIService.pdb" publishTime="10/30/2013 16:30:41" />
+    <file relUrl="bin/System.Net.Http.dll" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Net.Http.Formatting.dll" publishTime="10/28/2013 13:50:54" />
+    <file relUrl="bin/System.Net.Http.Primitives.dll" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="bin/System.Net.Http.Formatting.xml" publishTime="10/28/2013 13:50:54" />
+    <file relUrl="bin/System.Web.Mvc.xml" publishTime="10/28/2013 13:50:54" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="bin/System.IO.xml" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Web.Helpers.dll" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="bin/System.Web.WebPages.dll" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="packages.config" publishTime="10/30/2013 15:50:42" />
+    <file relUrl="bin/System.Web.Http.xml" publishTime="10/30/2013 15:02:37" />
+    <file relUrl="bin/System.Runtime.dll" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Net.Http.Primitives.xml" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Web.Razor.xml" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="Global.asax" publishTime="10/30/2013 16:30:39" />
+    <file relUrl="bin/System.Web.Http.dll" publishTime="10/30/2013 15:02:37" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="bin/System.Web.WebPages.Razor.xml" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="bin/System.IO.dll" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Web.Mvc.dll" publishTime="10/28/2013 13:50:54" />
+    <file relUrl="bin/System.Net.Http.WebRequest.dll" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Threading.Tasks.dll" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/System.Web.Razor.dll" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="bin/System.Web.Http.WebHost.dll" publishTime="10/28/2013 13:50:54" />
+    <file relUrl="bin/System.Net.Http.xml" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="10/28/2013 13:50:53" />
+    <file relUrl="Web.config" publishTime="10/30/2013 16:35:26" />
+    <file relUrl="bin/System.Net.Http.Extensions.dll" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="bin/IBCReportKPIService.dll" publishTime="10/30/2013 16:30:41" />
+    <file relUrl="bin/System.Threading.Tasks.xml" publishTime="10/30/2013 15:50:39" />
+    <file relUrl="Views/Web.config" publishTime="10/30/2013 15:45:32" />
+    <file relUrl="bin/System.Web.Helpers.xml" publishTime="10/28/2013 13:50:53" />
+  </publishProfile>
+</publishData>

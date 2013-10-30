@@ -8,6 +8,9 @@
 // </history>
 namespace ApolloReportKPIService.Models
 {
+    /// <summary>
+    /// Currency model class.
+    /// </summary>
     public class CurrencyModel
     {
         public int Exchangeid { get; set; }

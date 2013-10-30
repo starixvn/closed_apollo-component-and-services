@@ -10,6 +10,9 @@ namespace ApolloReportKPIService.Models
 {
     using System;
 
+    /// <summary>
+    /// Sun sport win loss model class.
+    /// </summary>
     public class SunSportWinLossModel
     {
         public int CurrencyId { get; set; }
