@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportKPIService", "ReportKPIService\ReportKPIService.csproj", "{BA91A4CF-E981-4457-9017-4DD176EC2CC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloReportKPIService", "ApolloReportKPIService\ApolloReportKPIService.csproj", "{3231DCE0-908C-4910-B5A4-C25223F5E1EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{BA91A4CF-E981-4457-9017-4DD176EC2CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA91A4CF-E981-4457-9017-4DD176EC2CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA91A4CF-E981-4457-9017-4DD176EC2CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3231DCE0-908C-4910-B5A4-C25223F5E1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3231DCE0-908C-4910-B5A4-C25223F5E1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3231DCE0-908C-4910-B5A4-C25223F5E1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3231DCE0-908C-4910-B5A4-C25223F5E1EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

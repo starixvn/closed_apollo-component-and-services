@@ -46,3 +46,4 @@ D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\System.Web.WebPag
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\bin\NPOI.xml
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\obj\Debug\ReportKPIService.dll
 D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\obj\Debug\ReportKPIService.pdb
+D:\Apollo-API\report-kpi\ReportKPIService\ReportKPIService\obj\Debug\ReportKPIService.csprojResolveAssemblyReference.cache
