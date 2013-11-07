@@ -99,22 +99,30 @@ namespace ApolloReportKPIService.Controllers
         /// <returns>List of object.</returns>
         private IEnumerable<T> GetData<T>(string url)
         {
-            _client.BaseAddress = new Uri(_urlService);
-            _client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
-
-            HttpResponseMessage response = _client.GetAsync(url).Result;
-
-            if (response.IsSuccessStatusCode)
+            try
             {
-                var data = response.Content.ReadAsAsync<IEnumerable<T>>().Result;
-                if (data != null && data.Any())
-                {
-                    return data;
-                }
-            }
+                _client.BaseAddress = new Uri(_urlService);
+                _client.DefaultRequestHeaders.Accept.Add(
+                    new MediaTypeWithQualityHeaderValue("application/json"));
 
-            return new List<T>();
+                HttpResponseMessage response = _client.GetAsync(url).Result;
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var data = response.Content.ReadAsAsync<IEnumerable<T>>().Result;
+                    if (data != null && data.Any())
+                    {
+                        return data;
+                    }
+                }
+
+                return new List<T>();
+            }
+            catch (Exception ex)
+            {                
+                throw ex;
+                return new List<T>();
+            }
         }
     }
 }
