@@ -37,8 +37,6 @@ D:\Apollo-API\report-kpi\ReportKPIService\IBCReportKPIService\bin\System.Web.Web
 D:\Apollo-API\report-kpi\ReportKPIService\IBCReportKPIService\obj\Debug\ApolloReportKPIService.csprojResolveAssemblyReference.cache
 D:\Apollo-API\report-kpi\ReportKPIService\IBCReportKPIService\obj\Debug\IBCReportKPIService.dll
 D:\Apollo-API\report-kpi\ReportKPIService\IBCReportKPIService\obj\Debug\IBCReportKPIService.pdb
-D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\IBCReportKPIService.dll
-D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\IBCReportKPIService.pdb
 D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\Microsoft.Web.Infrastructure.dll
 D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\System.IO.dll
 D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\System.Net.Http.dll
@@ -74,5 +72,7 @@ D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\System.Web.
 D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\System.Web.WebPages.Deployment.xml
 D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\System.Web.WebPages.Razor.xml
 D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\obj\Debug\ApolloReportKPIService.csprojResolveAssemblyReference.cache
-D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\obj\Debug\IBCReportKPIService.dll
-D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\obj\Debug\IBCReportKPIService.pdb
+D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\ApolloReportKPIService.dll
+D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\bin\ApolloReportKPIService.pdb
+D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\obj\Debug\ApolloReportKPIService.dll
+D:\Apollo-API\report-kpi\ReportKPIService\ApolloReportKPIService\obj\Debug\ApolloReportKPIService.pdb
