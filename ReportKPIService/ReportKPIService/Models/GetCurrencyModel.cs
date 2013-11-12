@@ -6,8 +6,12 @@
 // <history>
 //   <change who="Terry.Nguyen" date="2013.10.28">Created</change>
 // </history>
+
 namespace Apollo.ReportKPIService.Models
 {
+    /// <summary>
+    /// Get currency model.
+    /// </summary>
     public class GetCurrencyModel
     {
         public int Exchangeid { get; set; }

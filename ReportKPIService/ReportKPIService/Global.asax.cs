@@ -15,7 +15,7 @@ namespace ReportKPIService
 
     /// <summary>
     /// Note: For instructions on enabling IIS6 or IIS7 classic mode.
-    /// Visit http://go.microsoft.com/?LinkId=9394801
+    /// Visit http://go.microsoft.com/?LinkId=9394801.
     /// </summary>
     public class MvcApplication : System.Web.HttpApplication
     {
