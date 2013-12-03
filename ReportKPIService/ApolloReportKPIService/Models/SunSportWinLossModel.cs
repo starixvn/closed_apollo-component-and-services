@@ -34,5 +34,13 @@ namespace ApolloReportKPIService.Models
         public decimal? WinLossCompany { get; set; }
 
         public double? WinLossCompanyEUR { get; set; }
+
+        public decimal? TCommission { get; set; }
+
+        public double? TCommissionEUR { get; set; }
+
+        public decimal? GrossWinLossCompany { get; set; }
+
+        public double? GrossWinLossCompanyEUR { get; set; }
     }
 }
