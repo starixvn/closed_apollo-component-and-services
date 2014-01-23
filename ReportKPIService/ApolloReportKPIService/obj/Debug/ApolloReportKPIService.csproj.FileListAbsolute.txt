@@ -134,7 +134,6 @@ D:\Apollo-Projects\apollo-component-service\ReportKPIService\ApolloReportKPIServ
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ApolloReportKPIService\bin\System.Web.WebPages.Deployment.dll
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ApolloReportKPIService\bin\System.Web.WebPages.dll
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ApolloReportKPIService\bin\System.Web.WebPages.Razor.dll
-D:\Apollo-Projects\apollo-component-service\ReportKPIService\ApolloReportKPIService\bin\Newtonsoft.Json.dll
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ApolloReportKPIService\bin\System.IO.xml
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ApolloReportKPIService\bin\System.Net.Http.xml
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ApolloReportKPIService\bin\System.Net.Http.Extensions.xml

@@ -121,7 +121,6 @@ D:\Apollo-Projects\apollo-component-service\ReportKPIService\ReportKPIService\bi
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ReportKPIService\bin\Ionic.Zip.dll
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ReportKPIService\bin\Microsoft.Practices.Unity.dll
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ReportKPIService\bin\Microsoft.Practices.Unity.Interception.dll
-D:\Apollo-Projects\apollo-component-service\ReportKPIService\ReportKPIService\bin\SPSRemoting.dll
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ReportKPIService\bin\IBCFile.dll
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ReportKPIService\bin\WebGrease.dll
 D:\Apollo-Projects\apollo-component-service\ReportKPIService\ReportKPIService\bin\Newtonsoft.Json.xml
