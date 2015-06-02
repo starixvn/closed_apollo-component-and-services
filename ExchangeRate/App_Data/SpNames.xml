@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Functions>
+  <Function Name="Exchange Rate">
+    <Setting Key="Acc_ExchangeDailyIns" SpName="Acc_ExchangeDailyIns" DbName="SVRTXN.TransDB.aplweb" Plain="0" />
+    <Setting Key="Acc_ExchangeDaily_ActualRateUpd" SpName="Acc_ExchangeDaily_ActualRateUpd" DbName="SVRTXN.TransDB.aplweb" Plain="0" />
+    <Setting Key="Acc_ExchangeCodeSel" SpName="Acc_ExchangeCodeSel" DbName="SVRAGE.RepDB.aplweb" Plain="0" />
+  </Function> 
+</Functions>
