@@ -11,6 +11,7 @@ namespace ExchangeRate.Commons
 {
     using System;
     using System.Configuration;
+    using Fanex.Common;
 
     /// <summary>
     /// TODO: Update summary.
@@ -98,6 +99,28 @@ namespace ExchangeRate.Commons
             get
             {
                 return GetValue("FromCurrencies").ToString();
+            }
+        }
+
+        public static bool IsEncryptionKey
+        {
+            get
+            {
+                return !IsUpdateOldData;
+            }
+        }
+
+        public static string APIKey
+        {
+            get
+            {
+                var key = GetValue("OandaAPIKey").ToString();
+                if (IsEncryptionKey)
+                {
+                    key = Cryptography.CfsDeCrypt(key);
+                }
+
+                return key;
             }
         }
 

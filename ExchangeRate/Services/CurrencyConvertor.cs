@@ -47,7 +47,7 @@ namespace ExchangeRate.Services
                 };
             }
 
-            string oandaUrl = string.Format(ApplicationSetting.OandaUrl, fromCurrency, toCurrency, rateDate.ToString("yyyy-MM-dd"));
+            string oandaUrl = string.Format(ApplicationSetting.OandaUrl, fromCurrency, toCurrency, rateDate.ToString("yyyy-MM-dd"), ApplicationSetting.APIKey);
 
             var exchangeRate = new OandaExchangeRateModel
             {
